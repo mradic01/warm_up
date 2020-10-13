@@ -1,0 +1,11 @@
+[33mcommit f0f3ab04336dfccbf5858082834028410bd60137[m[33m ([m[1;36mHEAD -> [m[1;32mvj1[m[33m)[m
+Author: mradic01 <mradi01@fesb.hr>
+Date:   Wed Oct 14 00:05:07 2020 +0200
+
+    clean up
+
+[33mcommit 12f4124b3925ed49f8bdf4ee93fbd1d7a7903eca[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: mradic01 <mradi01@fesb.hr>
+Date:   Mon Oct 12 16:58:09 2020 +0200
+
+    Initial commit from gatsby: (https://github.com/gatsbyjs/gatsby-starter-default.git)

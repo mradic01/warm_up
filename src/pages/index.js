@@ -1,13 +1,14 @@
 import React from "react"
+import contactBar from "../components/ContactBar/ContactBar";
 //import { Link } from "gatsby"
 
 import Aux from '../hoc/auxiliary/auxiliary';
+import ContactBar from '../components/ContactBar/contactBar';
 
 const IndexPage = () => (
   <Aux>
-    <h1>Hi people</h1>
-    <p>Let's start.</p>
+    <ContactBar/>
   </Aux>
 )
 
-export default IndexPage
+export default IndexPage;

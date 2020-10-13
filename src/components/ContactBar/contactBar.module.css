@@ -1,0 +1,15 @@
+.contactBar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #404040;
+    width: 100%;
+    height:40px;
+    align-items: center;
+}
+
+.contact{
+    margin: 0px 25px;
+    color: #ccc;
+    font-size: 15px;
+    font-family: "Lucida Console";
+}
