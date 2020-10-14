@@ -12,6 +12,7 @@
     color: #ccc;
     font-size: 15px;
     font-family: "Lucida Console";
+    pointer-events: none;
 }
 
 @media (max-width: 550px){
@@ -26,6 +27,7 @@
     .contact{
         margin: 0px 3px;
         font-size: 35px;
+        pointer-events: all;
     }
 
     .contact:hover{
