@@ -13,3 +13,23 @@
     font-size: 15px;
     font-family: "Lucida Console";
 }
+
+@media (max-width: 550px){
+    .hide{
+        display: none;
+    }
+
+    .contactBar{
+        height: 50px;
+    }
+
+    .contact{
+        margin: 0px 3px;
+        font-size: 35px;
+    }
+
+    .contact:hover{
+        cursor:pointer;
+        color: salmon;
+    }
+}
