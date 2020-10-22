@@ -1,10 +1,11 @@
 import React from 'react';
 
-import classes from './navigationHeader.module.css'; 
+import classes from './navigationHeader.module.css';
+import Logo from '../Logo/logo'; 
 
 const navigationHeader = (props) => (
     <section className={classes.NavigationHeader}>
-        <div>Logo</div>
+        <Logo/>
         <div>Navigation</div>
     </section>
 );
