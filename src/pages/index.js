@@ -4,10 +4,12 @@ import contactBar from "../components/ContactBar/ContactBar";
 
 import Aux from '../hoc/auxiliary/auxiliary';
 import ContactBar from '../components/ContactBar/contactBar';
+import NavigationHeader from '../components/NavigationHeader/navigationHeader';
 
 const IndexPage = () => (
   <Aux>
     <ContactBar/>
+    <NavigationHeader/>
   </Aux>
 )
 
