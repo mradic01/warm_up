@@ -9,3 +9,10 @@
     line-height: 36px;
     text-transform: uppercase;
   }
+
+  @media (max-width: 1000px){
+    .comoBox {
+      width: 80px;
+      font-size: 10px;
+    }
+  }

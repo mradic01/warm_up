@@ -22,3 +22,14 @@
   .navigationBar .active, .navigationBar .active:hover{
     border-bottom: 2px solid black;
   }
+
+  @media (max-width: 1000px){
+    .navigationBar {
+      width: 440px;
+    }
+
+    .navigationBar li {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
