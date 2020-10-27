@@ -1,7 +1,8 @@
 import React from 'react'
+
 import classes from './footer.module.css'
 
-const navTabs = ['Home', 'Accommodation', 'Photo Gallery', 'Contact']
+import NavigationBar from '../Navigation/NavigationBar/navigationBar';
 
 const Footer = () => (
   <footer className={classes.footer}>
@@ -16,11 +17,7 @@ const Footer = () => (
           </li>
           <li>example@email.com</li>
       </ul>
-      <ul className={classes.navigation}>
-          {navTabs.map(tab =>
-            <li>{tab}</li>)
-          }
-      </ul>
+      <NavigationBar useThisStyle/>
   </footer>
 )
 

@@ -19,9 +19,27 @@
     cursor: pointer;
   }
   
-  .navigationBar .active, .navigationBar .active:hover{
+.navigationBar .active, .navigationBar .active:hover{
     border-bottom: 2px solid black;
-  }
+}
+
+.footer {
+  margin: 30px;
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.footer li {
+  margin: 0 25px;
+  font-size: 16px;
+  height: fit-content;
+}
+
+.footer li:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
 
   @media (max-width: 1000px){
     .navigationBar {
