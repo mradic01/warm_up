@@ -2,7 +2,7 @@ import React from 'react'
 
 import classes from './footer.module.css'
 
-import NavigationBar from '../Navigation/NavigationBar/navigationBar';
+import NavigationBar from '../../components/Navigation/NavigationBar/navigationBar';
 
 const Footer = () => (
   <footer className={classes.footer}>

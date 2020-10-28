@@ -1,9 +1,8 @@
 import React from "react"
-import contactBar from "../components/ContactBar/ContactBar";
 //import { Link } from "gatsby"
 
 
-import HeaderFooterLayout from '../components/Layouts/headerFooterLayout';
+import HeaderFooterLayout from '../Layouts/headerFooterLayout';
 
 const IndexPage = () => (
     <HeaderFooterLayout activeTab={"HOME"}>

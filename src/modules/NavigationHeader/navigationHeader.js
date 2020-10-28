@@ -1,10 +1,10 @@
 import React from 'react';
 
 import classes from './navigationHeader.module.css';
-import Logo from '../Logo/logo';
-import Navigation from '../Navigation/navigation';
-import ComboBox from '../ComoBox/ComoBox';
-import ContactBar from '../ContactBar/contactBar';
+import Logo from '../../components/Logo/logo';
+import Navigation from '../../components/Navigation/navigation';
+import ComboBox from '../../components/ComoBox/ComoBox';
+import ContactBar from '../../components/ContactBar/contactBar';
 
 const navigationHeader = (props) => (
     <>
