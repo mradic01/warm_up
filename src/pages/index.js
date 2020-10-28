@@ -3,10 +3,11 @@ import React from "react"
 
 
 import HeaderFooterLayout from '../Layouts/headerFooterLayout';
+import TitlePage from '../modules/TitlePage/titlePage';
 
 const IndexPage = () => (
     <HeaderFooterLayout activeTab={"HOME"}>
-
+        <TitlePage />
     </HeaderFooterLayout>
 )
 
