@@ -11,7 +11,7 @@ const navigationHeader = (props) => (
         <ContactBar />
         <section className={classes.NavigationHeader}>
             <Logo />
-            <Navigation activeBar={'HOME'} />
+            <Navigation activeBar={props.activeTab} />
             <ComboBox />
         </section>
     </>

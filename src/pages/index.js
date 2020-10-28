@@ -2,15 +2,13 @@ import React from "react"
 import contactBar from "../components/ContactBar/ContactBar";
 //import { Link } from "gatsby"
 
-import Aux from '../hoc/auxiliary/auxiliary';
-import NavigationHeader from '../components/NavigationHeader/navigationHeader';
-import Footer from "../components/Footer/footer";
+
+import HeaderFooterLayout from '../components/Layouts/headerFooterLayout';
 
 const IndexPage = () => (
-  <Aux>
-    <NavigationHeader/>
-    <Footer/>
-  </Aux>
+    <HeaderFooterLayout activeTab={"HOME"}>
+
+    </HeaderFooterLayout>
 )
 
 export default IndexPage;
