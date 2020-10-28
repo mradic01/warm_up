@@ -4,10 +4,12 @@ import React from "react"
 
 import HeaderFooterLayout from '../Layouts/headerFooterLayout';
 import TitlePage from '../modules/TitlePage/titlePage';
+import PageContent from '../modules/PageContent/pageContent';
 
 const IndexPage = () => (
     <HeaderFooterLayout activeTab={"HOME"}>
         <TitlePage />
+        <PageContent />
     </HeaderFooterLayout>
 )
 
