@@ -1,8 +1,8 @@
 export const navTabs = [
-    {tab: 'Home', to: '/'},
-    {tab: 'Accommodation', to: '/'}, 
-    {tab: 'Photo Gallery', to: '/'}, 
-    {tab: 'Contact', to: 'contact'}
+    { tab: 'Home', to: '/' },
+    { tab: 'Accommodation', to: '/' },
+    { tab: 'Photo Gallery', to: '/gallery' },
+    { tab: 'Contact', to: '/contact' }
 ];
 
 export const languages = [
