@@ -1,13 +1,13 @@
 import React from 'react'
- 
-import classes from './ContactSeparator.module.css'
- 
-const ContactSeparator = () => (
+
+import classes from './SeparatorBar.module.css'
+
+const ContactSeparator = ({ text }) => (
     <section className={classes.separator}>
         <div className={classes.horizontalLine} />
-        <h2>CONTACT</h2>
+        <h2>{text}</h2>
         <div className={classes.horizontalLine} />
     </section>
 )
- 
+
 export default ContactSeparator
