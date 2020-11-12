@@ -7,7 +7,7 @@ import TitlePage from '../modules/TitlePage/titlePage';
 import PageContent from '../modules/PageContent/pageContent';
 
 const IndexPage = () => (
-    <HeaderFooterLayout activeTab={"HOME"}>
+    <HeaderFooterLayout activeTab={"Home"}>
         <TitlePage />
         <PageContent />
     </HeaderFooterLayout>
